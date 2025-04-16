@@ -29,7 +29,7 @@ export default function Home() {
 
   const monitorSystem = async () => {
     try {
-      const res = await fetch('http://localhost:3000/api/log-request', {
+      const res = await fetch('/api/log-request', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ip: '192.168.1.50', port: 80 }) 

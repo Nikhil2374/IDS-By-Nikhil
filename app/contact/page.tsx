@@ -49,8 +49,8 @@ export default function Contact() {
                 <CardContent className="flex items-center space-x-4 p-6">
                   <Mail className="w-6 h-6 text-primary" />
                   <div>
-                    <h3 className="font-medium">Email</h3>
-                    <p className="text-muted-foreground">contact@ids-security.com</p>
+                    <h3 className="font-medium">Admin-Email</h3>
+                    <p className="text-muted-foreground">nikhilkumar37641@gmail.com</p>
                   </div>
                 </CardContent>
               </Card>
@@ -59,7 +59,7 @@ export default function Contact() {
                   <Phone className="w-6 h-6 text-primary" />
                   <div>
                     <h3 className="font-medium">Phone</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+91 74887 16992</p>
                   </div>
                 </CardContent>
               </Card>
@@ -69,7 +69,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-medium">Address</h3>
                     <p className="text-muted-foreground">
-                      123 Security Street, Cyber City, CS 12345
+                      Chandigarh University, Mohali, Punjab, India
                     </p>
                   </div>
                 </CardContent>

@@ -47,7 +47,7 @@ export default function RootLayout({
                 <span className="font-bold text-xl">IDS</span>
               </div>
               <div className="text-sm text-muted-foreground">
-                © 2024 IDS Security. All rights reserved.
+                © 2024 IDS Security By Nikhil Kumar & Team. All rights reserved.
               </div>
             </div>
           </div>

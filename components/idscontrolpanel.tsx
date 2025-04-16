@@ -10,7 +10,7 @@ export default function IDSControlPanel({ onNewEvents }: { onNewEvents: (events:
     setLog((prev) => [...prev.slice(-19), msg]);
 
   const request = async (body: any): Promise<SecurityEvent[]> => {
-    const res = await fetch('http://localhost:3000/api/log-request', {
+    const res = await fetch('/api/log-request', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(body),
